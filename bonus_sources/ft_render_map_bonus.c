@@ -58,8 +58,8 @@ void	ft_identify_sprite(t_game *game, int y, int x)
 	}
 	else if (parameter == PLAYER)
 		ft_render_player (game, y, x);
-	else if (parameter == TOXIC_RIVER)
-		ft_render_sprite (game, game->toxic, y, x);
+	else if (parameter == ENEMIE)
+		ft_render_sprite (game, game->enemie, y, x);
 }
 
 void	ft_render_player(t_game *game, int y, int x)

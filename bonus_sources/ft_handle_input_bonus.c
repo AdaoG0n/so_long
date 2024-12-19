@@ -38,7 +38,7 @@ void	ft_player_move(t_game *game, int new_y, int new_x, int player_sprite)
 	game->player_sprite = player_sprite;
 	last_x = game->map.player.x;
 	last_y = game->map.player.y;
-	if (game->map.full[new_y][new_x] == TOXIC_RIVER)
+	if (game->map.full[new_y][new_x] == ENEMIE)
 		ft_loss(game);
 	if (game->map.full[new_y][new_x] == MAP_EXIT && game->map.coins == 0)
 		ft_victory(game);

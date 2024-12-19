@@ -55,7 +55,7 @@ void	ft_init_sprites(t_game *game)
 	game->player_back = ft_new_sprite(mlx, PLAYER_BACK_XPM, game);
 	game->open_exit = ft_new_sprite(mlx, OPEN_EXIT_XPM, game);
 	game->exit_closed = ft_new_sprite(mlx, EXIT_CLOSED_XPM, game);
-	game->toxic = ft_new_sprite(mlx, TOXIC_RIVER_XPM, game);
+	game->enemie = ft_new_sprite(mlx, ENEMIE_XPM, game);
 }
 
 t_image	ft_new_sprite(void *mlx, char *path, t_game *game)

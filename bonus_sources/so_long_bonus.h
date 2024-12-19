@@ -28,7 +28,7 @@
 # define COINS  			'C'
 # define PLAYER				'P'
 # define MAP_EXIT 		 	'E'
-# define TOXIC_RIVER 	 	'T'
+# define ENEMIE 	 	'T'
 
 # define KEY_W				119
 # define KEY_A				97
@@ -57,7 +57,7 @@
 # define PLAYER_BACK_XPM	"assets/back.xpm"
 # define OPEN_EXIT_XPM		"assets/open-exit.xpm"
 # define EXIT_CLOSED_XPM	"assets/exit-closed.xpm"
-# define TOXIC_RIVER_XPM	"assets/toxic-river.xpm"
+# define ENEMIE_XPM			"assets/enemie.xpm"
 
 # define GREEN				"\033[0;32m"
 # define RED 				"\033[1;31m"
@@ -112,7 +112,7 @@ typedef struct s_game
 	t_image		player_left;
 	t_image		player_right;
 	t_image		player_back;
-	t_image		toxic;
+	t_image		enemie;
 }	t_game;
 
 void	ft_check_command_line_arguments(int argc, char **argv, t_game *game);

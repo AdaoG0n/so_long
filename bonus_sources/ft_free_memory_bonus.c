@@ -37,7 +37,7 @@ void	ft_destroy_images(t_game *game)
 	mlx_destroy_image(game->mlx_ptr, game->player_back.xpm_ptr);
 	mlx_destroy_image(game->mlx_ptr, game->exit_closed.xpm_ptr);
 	mlx_destroy_image(game->mlx_ptr, game->open_exit.xpm_ptr);
-	mlx_destroy_image(game->mlx_ptr, game->toxic.xpm_ptr);
+	mlx_destroy_image(game->mlx_ptr, game->enemie.xpm_ptr);
 }
 
 void	ft_free_map(t_game *game)
